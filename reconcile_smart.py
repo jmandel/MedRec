@@ -36,7 +36,7 @@ SMART_SERVER_OAUTH = {'consumer_key': 'my-app@apps.smartplatforms.org',
 
 SERVER_ROOT='' # e.g. '/http/path/to/app'
 
-UCUM_URL = 'http://aurora.regenstrief.org/~ucum/ucum-essence.xml'
+UCUM_URL = os.path.join(os.path.dirname(__file__), 'ucum-essence.xml')
 
 # The following is for multilist
 MULTIPLE_LIST_SUPPORT=True
